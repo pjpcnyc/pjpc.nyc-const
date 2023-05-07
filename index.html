@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!--use "em" to emphasize keywords for google-->
   <head>
     <meta charset="utf-8" />
     <meta
@@ -12,7 +13,16 @@
     <!-- complete - google search -->
     <meta name="author" content="Patrick John Paul Curran" />
     <title>pjpc</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/img/logo_blacktranslucent.png"
+    />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Google fonts-->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
@@ -24,7 +34,7 @@
       rel="stylesheet"
       type="text/css"
     />
-    <!-- Core theme -->
+    <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body id="page-top">
@@ -33,15 +43,6 @@
       class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
       id="sideNav"
     >
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">pjpc</span>
-        <span class="d-none d-lg-block"
-          ><img
-            class="img-fluid img-profile"
-            src="assets/img/11179.jpg"
-            alt="..."
-        /></span>
-      </a>
       <button
         class="navbar-toggler"
         type="button"
@@ -50,36 +51,119 @@
         aria-controls="navbarResponsive"
         aria-expanded="false"
         aria-label="Toggle navigation"
+        style="padding-left: 0px"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none"
+          ><!--pjpc-->
+          <img
+            class="img-fluid img-top"
+            src="assets/img/logo_whiteontranslucent.png"
+            alt="..."
+            style="padding-right: 7px"
+          />pjpc
+        </span>
+
+        <span class="d-none d-lg-block"
+          ><img
+            class="img-fluid"
+            src="assets/img/PJPC logo_whitetranslucent.png"
+            alt="..."
+        /></span>
+      </a>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#pjpc">pjpc</a>
+            <a class="nav-link js-scroll-trigger" href="#landing"
+              >landing page</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">about me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#recent">recent work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#animemusic"
+              >anime music</a
+            >
           </li>
         </ul>
       </div>
-      <p></p>
     </nav>
     <!-- Page Content-->
     <div class="container-fluid p-0">
-      <!-- About-->
-      <section class="resume-section" id="pjpc">
-        <div class="resume-section-content">
-          <h1 class="mb-0">
-            <span class="text-primary">Patrick John Paul Curran</span>
-          </h1>
-          <p></p>
-          <p class="lead mb-5">
-            My website is under construction. If you wish to contact me, feel
-            free to reach me at
-            <a href="mailto:name@email.com">pjpc.nyc@gmail.com</a>.
+      <!-- landing-->
+      <section class="home" id="landing">
+        <div class="home-section-content">
+          <p style="font-style: italic; text-align: center">highlighted work</p>
+          <img
+            class="landingimg"
+            src="assets/img/animecovercry_final.png"
+            alt="landing image"
+          />
+          <p class="landingtitle">Villian's Theme (feat. Paper Geese)</p>
+          <p class="landingartist">Anime Music</p>
+          <div class="social-icons" style="text-align: center">
+            <a
+              class="spotify"
+              href="https://open.spotify.com/track/24gXuikyCHMeN1CTpq8jW1?si=9668e216b82f4ae7"
+              target="_blank"
+              ><i class="fa-brands fa-spotify"></i>
+            </a>
+            <a
+              class="apple"
+              target="_blank"
+              href="https://music.apple.com/us/album/villains-theme-feat-paper-geese/1681990554?i=1681990555"
+              ><i class="fa-brands fa-apple"></i
+            ></a>
+          </div>
+          <p class="hometext">
+            Check out the latest single for my project <i>Anime Music</i>. I did
+            some composition work, played keys/synths, and assisted with the
+            production.
           </p>
+        </div>
+      </section>
+      <!-- about me-->
+      <section class="resume-section" id="about" style="background: black">
+        <div class="resume-section-content">
+          <h2 class="mb-5" style="color: #8c8c8c">Patrick John Paul Curran</h2>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Site Under Construction</h3>
+              <p>Check back soon :)</p>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">March 2013 - Present</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="m-0" />
+      <!--recent work-->
+      <section class="resume-section" id="recent">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Recent Work</h2>
+        </div>
+      </section>
+      <hr class="m-0" />
+      <!--Anime Music-->
+      <section class="resume-section" id="animemusic">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Anime Music</h2>
         </div>
       </section>
       <hr class="m-0" />
     </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
   </body>
 </html>
