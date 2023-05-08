@@ -7693,6 +7693,10 @@ textarea.form-control-lg {
   margin-top: 2em;
 }
 
+.mb-recent {
+  margin-top: 2em;
+}
+
 .mb-auto {
   margin-bottom: auto !important;
 }
@@ -10997,6 +11001,25 @@ p.lead {
   background-color: #000000;
 }
 
+.social-icons .youtube {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #FF0000;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.social-icons .youtube:last-child {
+  margin-right: 0;
+}
+.social-icons .youtube:hover {
+  background-color: #000000;
+}
+
 .dev-icons {
   font-size: 3rem;
 }
@@ -11090,4 +11113,81 @@ section.home .home-section-content {
 .pjpclink{
   color: #8c8c8c;
   --bs-link-hover-color: white;
+}
+
+.recentbelow{
+  margin-bottom:50px;
+  font-size: 1.2rem;
+}
+
+.workgrid{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.projectblock{
+  max-width: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.albumart{
+  color: #8c8c8c;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  border: 1px solid #8c8c8c;
+}
+
+.titleinfo{
+  color: #343a40;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 120%;
+}
+
+.projectinfo{
+  color: #8c8c8c;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.workdone{
+  color: #8c8c8c;
+  margin-top: 0.5em;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.worklinks {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #8c8c8c;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5em;
+}
+.worklinks:last-child {
+  margin-right: 0;
+}
+.worklinks:hover {
+  color:white;
+  background-color: #000000;
 }
