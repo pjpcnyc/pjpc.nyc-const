@@ -7697,6 +7697,11 @@ textarea.form-control-lg {
   margin-top: 2em;
 }
 
+.mb-anime {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 .mb-auto {
   margin-bottom: auto !important;
 }
@@ -10982,6 +10987,29 @@ p.lead {
   background-color: #000000;
 }
 
+.social-icons .instagram {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );  
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.social-icons .instagram:last-child {
+  margin-right: 0;
+}
+.social-icons .instagram:hover {
+  background: #000000;
+}
+
 .social-icons .apple {
   display: inline-flex;
   align-items: center;
@@ -11115,6 +11143,11 @@ section.home .home-section-content {
   --bs-link-hover-color: white;
 }
 
+.animelink{
+  color: black;
+  --bs-link-hover-color: white;
+}
+
 .recentbelow{
   margin-bottom:50px;
   font-size: 1.2rem;
@@ -11190,4 +11223,27 @@ section.home .home-section-content {
 .worklinks:hover {
   color:white;
   background-color: #000000;
+}
+
+.animebody{
+  color: black;
+}
+
+.animelinkbox{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+
+.animeimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 25em;
+  object-fit: contain;
+  margin-bottom: 1.5em;
+  margin-top: 3em;
+  border: 5px solid #000000;
 }
