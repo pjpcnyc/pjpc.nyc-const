@@ -11048,6 +11048,26 @@ p.lead {
   background-color: #000000;
 }
 
+.social-icons .tiktok {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.social-icons .tiktok:last-child {
+  margin-right: 0;
+}
+.social-icons .tiktok:hover {
+  background-color: #fff;
+  color: #000;
+}
+
 .dev-icons {
   font-size: 3rem;
 }
@@ -11057,7 +11077,7 @@ section.resume-section {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 3rem;
+  padding-top: 2rem;
   padding-bottom: 5rem;
   /*max-width: 75rem;*/
 }
@@ -11077,7 +11097,7 @@ section.resume-section .resume-section-content {
   section.resume-section {
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-bottom: 5rem;
   }
 }
@@ -11166,6 +11186,7 @@ section.home .home-section-content {
   margin-right: 20px;
   text-align: center;
   display: inline-block;
+  vertical-align: top;
 }
 
 .albumart{
@@ -11207,6 +11228,7 @@ section.home .home-section-content {
 .worklinks {
   display: inline-flex;
   align-items: center;
+  vertical-align: bottom;
   justify-content: center;
   height: 2.5rem;
   width: 2.5rem;
