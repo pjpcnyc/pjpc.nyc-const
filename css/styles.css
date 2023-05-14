@@ -7694,7 +7694,7 @@ textarea.form-control-lg {
 }
 
 .mb-recent {
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
 
 .mb-anime {
@@ -11169,7 +11169,7 @@ section.home .home-section-content {
 }
 
 .recentbelow{
-  margin-bottom:50px;
+  margin-bottom:1em;
   font-size: 1.2rem;
 }
 
@@ -11178,15 +11178,29 @@ section.home .home-section-content {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  /*background-color: #FFC0CB;*/
+  background-color: #ededed;
+}
+
+.workframe{
+  margin-left: auto;
+  margin-right: auto;
+  height: 575px;
+  width: 100%;
 }
 
 .projectblock{
   max-width: 250px;
   margin-left: 20px;
   margin-right: 20px;
+  height: 559px;
   text-align: center;
   display: inline-block;
   vertical-align: top;
+  white-space: normal;
 }
 
 .albumart{
@@ -11268,4 +11282,12 @@ section.home .home-section-content {
   margin-bottom: 1.5em;
   margin-top: 3em;
   border: 5px solid #000000;
+}
+
+.recentworkbody{
+  padding-top: 1em; 
+  background: #ededed;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left:0;
 }
