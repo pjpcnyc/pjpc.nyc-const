@@ -11110,12 +11110,12 @@ section.home {
   padding-top: 2rem;
   padding-bottom: 5rem;
   /*max-width: 75rem;*/
-  background-color: darkred;
+  background-color: #080D5F;
   color:white;
 }
 section.home .home-section-content {
   width: 100%;
-  color: white;
+  color: #40a7d4;
 }
 
 @media (min-width: 768px) {
@@ -11290,4 +11290,9 @@ section.home .home-section-content {
   margin-left: auto;
   margin-right: auto;
   padding-left:0;
+}
+
+.homelink{
+  color: #40a7d4;
+  --bs-link-hover-color: white;
 }
