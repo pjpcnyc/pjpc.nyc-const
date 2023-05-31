@@ -11178,8 +11178,6 @@ section.home .home-section-content {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  overflow-x: scroll;
-  overflow-y: hidden;
   white-space: nowrap;
   /*background-color: #FFC0CB;*/
   background-color: #ededed;
@@ -11188,8 +11186,9 @@ section.home .home-section-content {
 .workframe{
   margin-left: auto;
   margin-right: auto;
-  height: 575px;
+  height: 590px;
   width: 100%;
+  overflow-x: scroll;
 }
 
 .projectblock{
