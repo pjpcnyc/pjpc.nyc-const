@@ -11110,12 +11110,12 @@ section.home {
   padding-top: 2rem;
   padding-bottom: 5rem;
   /*max-width: 75rem;*/
-  background-color: #080D5F;
+  background-color: #040126;
   color:white;
 }
 section.home .home-section-content {
   width: 100%;
-  color: #40a7d4;
+  color: #ffffff;
 }
 
 @media (min-width: 768px) {
@@ -11189,6 +11189,15 @@ section.home .home-section-content {
   height: 590px;
   width: 100%;
   overflow-x: scroll;
+}
+
+.landingframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 450px;
+  height: 450px;
 }
 
 .projectblock{
