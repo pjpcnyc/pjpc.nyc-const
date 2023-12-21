@@ -103,6 +103,16 @@ body {
   padding-bottom: 20px;
 }
 
+.landingimgstu{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 50em;
+  object-fit: contain;
+  padding-bottom: 20px;
+}
+
 .landingtitle{
   text-align: center;
   color: white;
@@ -11110,7 +11120,7 @@ section.home {
   padding-top: 2rem;
   padding-bottom: 5rem;
   /*max-width: 75rem;*/
-  background-color: #040126;
+  background-color: #bfb699;
   color:white;
 }
 section.home .home-section-content {
