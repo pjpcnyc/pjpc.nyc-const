@@ -115,7 +115,7 @@ body {
 
 .landingtitle{
   text-align: center;
-  color: white;
+  color: black;
   font-weight:bold;
   font-size:40px;
   margin-bottom:1rem;
@@ -127,6 +127,7 @@ body {
   text-align: center;
   font-size:25px;
   margin-bottom: 1em;
+  color: black;
 }
 
 hr {
@@ -11151,6 +11152,7 @@ section.home .home-section-content {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  color: black;
 }
 
 .pjpc{
@@ -11312,5 +11314,5 @@ section.home .home-section-content {
 
 .homelink{
   color: #40a7d4;
-  --bs-link-hover-color: white;
+  --bs-link-hover-color: black;
 }
