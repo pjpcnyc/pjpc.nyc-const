@@ -11316,3 +11316,8 @@ section.home .home-section-content {
   color: #40a7d4;
   --bs-link-hover-color: black;
 }
+
+.basiclogo{
+  max-width: 200px;
+  text-align: center;
+}
